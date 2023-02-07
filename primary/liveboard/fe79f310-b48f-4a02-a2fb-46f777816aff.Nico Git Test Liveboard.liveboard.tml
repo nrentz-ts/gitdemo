@@ -306,14 +306,35 @@ liveboard:
       client_state: "{\"answerMode\":\"advanced\"}"
     viz_guid: 81551dec-2487-4889-8918-3864ca43ca55
   layout:
-    tiles:
-    - visualization_id: Viz_1
-      size: MEDIUM
-    - visualization_id: Viz_3
-      size: MEDIUM
-    - visualization_id: Viz_2
-      size: LARGE
-    - visualization_id: Viz_4
-      size: MEDIUM
-    - visualization_id: Viz_5
-      size: MEDIUM
+    tabs:
+    - name: Charts
+      description: ""
+      tiles:
+      - visualization_id: Viz_1
+        x: 0
+        "y": 0
+        height: 8
+        width: 6
+      - visualization_id: Viz_3
+        x: 6
+        "y": 0
+        height: 8
+        width: 6
+      - visualization_id: Viz_4
+        x: 0
+        "y": 16
+        height: 8
+        width: 6
+      - visualization_id: Viz_5
+        x: 6
+        "y": 16
+        height: 8
+        width: 6
+    - name: Table
+      description: ""
+      tiles:
+      - visualization_id: Viz_2
+        x: 0
+        "y": 0
+        height: 8
+        width: 12
